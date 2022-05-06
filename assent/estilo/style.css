@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/* corpo  */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* fundo  */
+.main-login {
+    width: 100vw;
+    /* 100vw porcertangem da largura */
+    height: 100vh;
+    /*100vh porcentagem de tamanho */
+    background-color: #4e4070;
+    /*Cor de fundo*/
+    display: flex;
+    /* posiçoes lado a lado*/
+    justify-content: center;
+    /*posicionamento no centro*/
+    align-items: center;
+    /* posicionamento no centro*/
+}
+/* tamanho de toda a div e posicionamento*/
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    margin-top: 4vh;
+    margin: 10vh;
+    /* margin-top: -60vh; */
+    display: flex;
+    /* posiçoes lado a lado*/
+    justify-content: center;
+    /*posicionamento no centro*/
+    align-items: center;
+    /* posicionamento no centro*/
+}
+/* cor do h1 do lado da imagem */
+.left-login>h1 {
+    color: rgb(234, 159, 204);
+   
+    /*cor de fonte */
+}
+.rigth-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    /* posiçoes lado a lado*/
+    justify-content: center;
+    /*posicionamento no centro*/
+    align-items: center;
+    /* posicionamento no centro*/
+}
+/* fundo login */
+.card-login {
+    width: 30vw;
+    height: 50vh;
+    padding: 5px;
+    margin: 6vh;
+    padding: 30px 25px;
+    /*Margin dentro do documento*/
+    justify-content: center;
+    /*posicionamento no centro*/
+    align-items: center;
+    /* posicionamento no centro*/
+    flex-direction: column;
+    background-color: rgba(38, 26, 44, 0.774);
+    border-radius: 20px;
+}
+
+/* area login */
+.card-login>h1 {
+    color: rgb(227, 107, 207);
+    font-weight: 800;
+    /*peso da font*/
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /*posicionamento no centro*/
+    align-items: center;
+}
+
+.textfield {
+    display: flex;
+    /* posiçoes lado a lado*/
+    justify-content: center;
+    /*posicionamento no centro*/
+    align-items: center;
+    /* posicionamento no centro*/
+    align-items: flex-end;
+    /* input na esquerda*/
+    margin: 25px 0px;
+}
+
+.textfield>input {
+    width: 100%;
+    border: none;
+    margin: 13px;
+    border-radius: 10px;
+    /*Borda*/
+    padding: 15px;
+    /*grossura input*/
+    background-color: rgb(101, 69, 116);
+    /*cor fundo de Input*/
+    color: rgb(211, 211, 211);
+    /*Cor de font*/
+    font-size: 13px;
+    /*Tamanho de font*/
+    outline: none;
+    /*Tira caixinha que fica em volta*/
+    box-sizing: border-box;
+    /*Divisão das div pai dos filhos*/
+    display: flex;
+}
+
+.textfield>label {
+    color: rgb(211, 211, 211);
+    margin-bottom: 10px;
+}
+
+.textfield>input::placeholder {
+    color: rgb(211, 211, 211);
+}
+
+.btn-login {
+    width: 10vw;
+    margin-left: 240px;
+    padding: 14px 0px;
+    border-radius: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    /*Negrito*/
+     color: rgb(43, 24, 48); /*cor de fonte botão*/
+    border: 1px solid transparent;
+    background: rgba(148, 90, 175, 0.904);
+    box-shadow: 6px 6px 40px rgb(227, 107, 207); /* Borda sombreada do botão */
+}
+
+.btn-login:hover {
+    color: rgb(160, 68, 191); /* Segunda cor de fonte do botão */
+     background-color: #78488bbe; /*Segunda cor de botão */
+
+}
+/* Tamanho e largura de imagem */
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 60vw;
+    height: 60vh;
+
+}
